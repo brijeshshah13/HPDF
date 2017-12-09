@@ -1,0 +1,19 @@
+{
+  "name": "week-1",
+  "version": "1.0.1",
+  "description": "Week 1 task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brijesh Shah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

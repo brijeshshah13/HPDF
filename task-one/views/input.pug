@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Receive Data
+  body
+    form(action="http://localhost:3000/output", method="POST")
+        | This is the part where you write something: 
+        input(type="text", name="data", placeholder="Blah, blah etc..")
+        br
+        input(type="submit" value="Submit")
