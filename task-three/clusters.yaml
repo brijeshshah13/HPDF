@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: detour88-hasura
+  data: null
+  kubeContext: detour88
+  name: detour88
